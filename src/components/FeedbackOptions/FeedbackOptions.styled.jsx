@@ -30,19 +30,3 @@ export const Button = styled.button`
 export const ControlsSection = styled.section`
     margin-bottom: 30px;
 ` 
-
-export const StatisticSection = styled.section`
-
-`
-export const InfoLabel = styled.p`
-    font-style:italic;
-    font-variant:small-caps;
-    font-weight:700;
-
-`
-export const InfoValue = styled.span``
-
-export const NotificationText = styled.h3`
-    font-style:normal;
-    font-weight:500;
-`

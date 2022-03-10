@@ -43,10 +43,11 @@ state = {
 Выполни рефакторинг приложения. Состояние приложения должно оставаться в
 корневом компоненте `<App>`.
 
-- Вынеси отображение статистики в отдельный компонент
-  `<Statistics good={} neutral={} bad={} total={} positivePercentage={}>`.
-- Вынеси блок кнопок в компонент
-  `<FeedbackOptions options={} onLeaveFeedback={}>`.
++- Вынеси отображение статистики в отдельный компонент
+`<Statistics good={} neutral={} bad={} total={} positivePercentage={}>`. +-
+Вынеси блок кнопок в компонент
+`<FeedbackOptions options={} onLeaveFeedback={}>`.
+
 - Создай компонент `<Section title="">`, который рендерит секцию с заголовком и
   детей (children). Оберни каждый из `<Statistics>` и `<FeedbackOptions>` в
   созданный компонент секции.

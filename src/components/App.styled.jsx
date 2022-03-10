@@ -5,9 +5,3 @@ export const Container = styled.div`
     padding: 20px auto;
 `
 
-export const Title = styled.h2`
-    font-weight:700;
-    fonst-size: 20px;
-`
-
-

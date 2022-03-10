@@ -1,10 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { StatisticSection, InfoLabel, InfoValue } from './FeedbackOptions.styled';
+import { StatisticSection, InfoLabel, InfoValue, Title } from './Statistic.styled';
 
-const Statistic = ({good, neutral, bad, total, positivePercentage}) => (
+const Statistic = ({title, good, neutral, bad, total, positivePercentage}) => (
+ 
   <StatisticSection>
+
+    <Title>{title}</Title>
+
     <InfoLabel>
       Good:<InfoValue> {good}</InfoValue>
     </InfoLabel>
