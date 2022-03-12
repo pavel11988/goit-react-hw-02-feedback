@@ -1,11 +1,3 @@
-// import Feedback from "./Feedback/Feedback";
-
-// export const App = () => {
-//   return (
-//     <Feedback />
-//   );
-// };
-
 import React from 'react';
 
 import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
